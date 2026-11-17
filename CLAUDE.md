@@ -11,8 +11,9 @@ Public: https://acao-boop.github.io/ (repo acao-boop/acao-boop.github.io). The h
 - Links to this site's own files are root-relative (`/hub.css`) because the site sits at the domain root.
 
 ## Review, then publish
-- Nothing goes live mid-session. Run `python3 tools/preview/make_preview.py`, open https://acao-boop.github.io/ in Claude's built-in browser and run `tools/preview/preview.js` there. Check desktop and phone widths, keyboard, dark mode, reduced motion.
-- When Andrew approves: commit, update HANDOFF.md; Andrew pushes `main` from VS Code. When the Actions run finishes, confirm the live files match `site/` (SHA-256), then `git tag -f published`. If the social card or description changed, rerun LinkedIn Post Inspector.
+- Nothing goes live mid-session. Review locally: from `site/`, run `python3 -m http.server 8000` and open http://localhost:8000/. Check desktop and phone widths, keyboard, dark mode, reduced motion.
+- As a fallback only, run `python3 tools/preview/make_preview.py`, open https://acao-boop.github.io/ in the browser pane and run `tools/preview/preview.js` there.
+- When Andrew approves, Claude commits, updates HANDOFF.md, and pushes `main`. When the Actions run finishes, confirm the live files match `site/` (SHA-256), then tag the deployed commit as `published` and push the tag. If the social card or description changed, rerun LinkedIn Post Inspector.
 
 ## Identity
 - Andrew's mark is the open A in `site/mark.svg` (drawn from Georgia's A, oxblood #762E37). On this page it is the initial of his name. In project sites it stays small, beside his credit, and links here.
