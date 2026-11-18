@@ -18,7 +18,7 @@
 ## Portfolio setup done this session
 - acao-boop/project-template is a template repository (site starter with the credit mark linking here, preview tool with SITE_ROOT, Pages workflow, CLAUDE.md/HANDOFF.md).
 - Ante's credit mark links here; its repo About has the description and website.
-- Local clones: ~/Documents/Projects/{ante, acao-boop.github.io, project-template, enoch}.
+- Local clones: ~/Projects/{ante, acao-boop.github.io, project-template, enoch, half-a-line} (moved out of iCloud on 18 Nov 2026).
 
 ## Next
 - Retake `site/plates/enoch.jpg` once the Enoch redesign is live.
