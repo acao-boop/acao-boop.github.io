@@ -79,7 +79,7 @@ main, .colophon { padding-inline: var(--gutter); }
   margin: clamp(2rem, 5vh, 3rem) 0 0;
   color: var(--ink-soft);
 }
-.elsewhere { display: flex; gap: 1.5rem; margin: .6rem 0 0; }
+.elsewhere { display: flex; flex-wrap: wrap; gap: .3rem 1.5rem; margin: .6rem 0 0; }
 
 /* Work: the list on the left; on wide screens the hovered or focused entry's card stands beside it as a plate. */
 .work { max-width: 72rem; border-top: 1px solid var(--rule); padding-block: 2.2rem 4rem; }

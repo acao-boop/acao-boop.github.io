@@ -22,7 +22,7 @@ Public: https://acao-boop.github.io/ (repo acao-boop/acao-boop.github.io). The h
 
 ## Adding a project
 1. Create the repo from acao-boop/project-template, build it, publish it.
-2. Add an `<article class="entry">` to `site/index.html` with its title, one-sentence description, "My part", collaborators, and its 1200×627 social card as the plate.
+2. Add an `<article class="entry">` to `site/index.html` with its title, one-sentence description, "My part", collaborators, and a 1200×627 screenshot of the site as the plate (`site/plates/<name>.jpg`; the social card stays for og:image).
 3. Link the project's credit mark back to https://acao-boop.github.io/.
 
 ## Constraints
