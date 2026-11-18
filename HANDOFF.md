@@ -1,10 +1,11 @@
 # Handoff
 
-## State (16 November 2026)
+## State (18 November 2026): forwarder to andrewcao.org; history below
 - New hub at https://acao-boop.github.io/: the open A as the initial of Andrew's name, a one-sentence introduction, and a Work list (Ante-Possessive Lives, Enoch). On wide screens the hovered or focused entry's social card shows beside the list; on phones and without JavaScript each card sits under its entry. Follows the system's dark mode.
 - `site/social-card.jpg` (1200×627) is the LinkedIn/Open Graph card, drawn in the browser in Georgia with the mark.
 
 ## Last change
+- 2026-11-18 (Andrew: "keep everything on the domain"): the hub moved to andrewcao.org. `site/` is now a forwarder (index and 404 send visitors to andrewcao.org, with noindex and a canonical link). hub.css, hub.js, mark.svg, social-card.jpg and plates/ were removed. The old hub is at the tag `legacy-hub` (33bcf72).
 - 2026-11-18 (approved by Andrew): from the portfolio evaluation (`../_reviews/portfolio-evaluation.md`), the open A moved inside the `<h1>` (it read "ndrew Cao"); email hello.ruruuco@gmail.com added; facts line names the PURM fellowship and the Diane Hunter Prize; Enoch entry gives 28 subjects and 94 sourced entries; plates are screenshots in `site/plates/` instead of share cards; 404 title and `<h1>`; `hub.css?v=2`. Checked locally at desktop and 375px dark (`hub-local` in Projects/.claude/launch.json serves a scratch copy, since python cannot run from Documents there).
 - 2026-11-17: switched review to the local VS Code server; Claude commits and pushes after Andrew approves, with the overlay preview as fallback.
 
